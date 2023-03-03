@@ -1,0 +1,29 @@
+:host {
+  background: #3C3670;
+  color: #FFF;
+  display: block;
+
+  > div {
+    height: 50px;
+    line-height: 50px;
+    padding: 15px;
+
+    h1 {
+      font-size: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: none;
+  }
+}
